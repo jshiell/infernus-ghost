@@ -151,6 +151,35 @@ table { border-collapse: collapse; border-spacing: 0; }
     content: "\e004";
 }
 
+.ext-twitter a:before {
+    content: url('/assets/images/twitter.png');
+    top: 8px;
+    position: relative;
+}
+
+.ext-flickr a:before {
+    content: url('/assets/images/flickr.png');
+    top: 8px;
+    position: relative;
+}
+
+.ext-github a:before {
+    content: url('/assets/images/github.png');
+    top: 8px;
+    position: relative;
+}
+
+.ext-stackoverflow a:before {
+    content: url('/assets/images/stackoverflow.png');
+    top: 8px;
+    position: relative;
+}
+
+.ext-steam a:before {
+    content: url('/assets/images/steam.png');
+    top: 8px;
+    position: relative;
+}
 
 /* ==========================================================================
    2. General - Setting up some base styles
