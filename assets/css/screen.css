@@ -156,9 +156,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 .ext-github a:before,
 .ext-stackoverflow a:before,
 .ext-steam a:before {
-    top: 8px;
-    position: relative;
-    margin-right: 8px;
+    margin-right: 7px;
+    display: block;
+    float: left;
     content: '';
     width: 32px;
     height: 32px;
