@@ -159,21 +159,25 @@ table { border-collapse: collapse; border-spacing: 0; }
     top: 8px;
     position: relative;
     margin-right: 8px;
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
 }
 .ext-twitter a:before {
-    content: url('/assets/images/twitter.png');
+    background-image: url('/assets/images/twitter.png');
 }
 .ext-flickr a:before {
-    content: url('/assets/images/flickr.png');
+    background-image: url('/assets/images/flickr.png');
 }
 .ext-github a:before {
-    content: url('/assets/images/github.png');
+    background-image: url('/assets/images/github.png');
 }
 .ext-stackoverflow a:before {
-    content: url('/assets/images/stackoverflow.png');
+    background-image: url('/assets/images/stackoverflow.png');
 }
 .ext-steam a:before {
-    content: url('/assets/images/steam.png');
+    background-image: url('/assets/images/steam.png');
 }
 
 @media only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -181,19 +185,19 @@ table { border-collapse: collapse; border-spacing: 0; }
     (-webkit-min-device-pixel-ratio: 1.5),
     (min-device-pixel-ratio: 1.5) {
     .ext-twitter a:before {
-        content: url('/assets/images/twitter-2x.png');
+        background-image: url('/assets/images/twitter-2x.png');
     }
     .ext-flickr a:before {
-        content: url('/assets/images/flickr-2x.png');
+        background-image: url('/assets/images/flickr-2x.png');
     }
     .ext-github a:before {
-        content: url('/assets/images/github-2x.png');
+        background-image: url('/assets/images/github-2x.png');
     }
     .ext-stackoverflow a:before {
-        content: url('/assets/images/stackoverflow-2x.png');
+        background-image: url('/assets/images/stackoverflow-2x.png');
     }
     .ext-steam a:before {
-        content: url('/assets/images/steam-2x.png');
+        background-image: url('/assets/images/steam-2x.png');
     }
 }
 
