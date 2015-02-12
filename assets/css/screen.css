@@ -151,7 +151,11 @@ table { border-collapse: collapse; border-spacing: 0; }
     content: "\e004";
 }
 
-.ext-twitter,.ext-flickr,.ext-github,.ext-stackoverflow,.ext-steam {
+.ext-twitter a:before,
+.ext-flickr a:before,
+.ext-github a:before,
+.ext-stackoverflow a:before,
+.ext-steam a:before {
     top: 8px;
     position: relative;
     margin-right: 8px;
