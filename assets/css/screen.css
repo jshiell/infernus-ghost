@@ -1252,6 +1252,14 @@ main {
     .site-footer .inner section:last-child:after {
         content: '';
     }
+
+    .ext-twitter,
+    .ext-flickr,
+    .ext-github,
+    .ext-stackoverflow,
+    .ext-steam {
+        display: none;
+    }
 }
 
 /* ==========================================================================
