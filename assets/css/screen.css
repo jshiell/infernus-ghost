@@ -1253,12 +1253,12 @@ main {
         content: '';
     }
 
-    .ext-twitter,
-    .ext-flickr,
-    .ext-github,
-    .ext-stackoverflow,
-    .ext-steam {
-        display: none;
+    .ext-twitter a:before,
+    .ext-flickr a:before,
+    .ext-github a:before,
+    .ext-stackoverflow a:before,
+    .ext-steam a:before {
+        background-image: none;
     }
 }
 
