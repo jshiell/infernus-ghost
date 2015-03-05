@@ -1259,6 +1259,8 @@ main {
     .ext-stackoverflow a:before,
     .ext-steam a:before {
         background-image: none;
+        width: 0;
+        height: 0;
     }
 }
 
