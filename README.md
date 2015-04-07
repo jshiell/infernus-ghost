@@ -1,6 +1,6 @@
-# Casper
+# Infernus-Ghost
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+An extension of Casper, the default theme for [Ghost](http://github.com/tryghost/ghost/), for [infernus.org](https://infernus.org/).
 
 ## Copyright & License
 
